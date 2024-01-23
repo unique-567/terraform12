@@ -1,0 +1,3 @@
+codeInString = 'a = 8\nb=7\nsum=a+b\nprint("sum =",sum)'
+codeObject = compile(codeInString, 'sumstring', 'exec')
+
